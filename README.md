@@ -1,11 +1,19 @@
-# Hangman
-Simple Hangman Game in Python
-This is simple hangman game implemented in python.
-it has text file including all the words.
-please make sure to keep all the files in one directory or else it will not work.
-This game selects any random word from the file and asks you to guess character for that word.
-You will get 8 chances to guess a word.
-when you guesses correct character your chance will not be counted when you gives wrong character your chance will be reduced by one.
+Description
 
-Hope you enjoy this game. 
-Any modification in this game would be highly appreciated.
+Hangman is a classic word-guessing game where players try to guess a hidden word by suggesting letters within a limited number of attempts. This project implements a simple version of the Hangman game in Python.
+
+Features
+
+Randomly selects a word from a predefined list.
+Displays the current state of the word with correctly guessed letters.
+Allows the player to guess letters until they either guess the word or run out of attempts.
+Provides feedback on the player's guesses.
+Requirements
+
+This project requires Python to be installed on your machine. The random library is used to select a word randomly from the list. This library is included in the Python standard library, so no additional installation is necessary.
+
+Installation
+
+Clone the repository or download the source code.
+Ensure you have Python installed. You can download it from python.org.
+No additional libraries need to be installed since random is part of the standard library.
